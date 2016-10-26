@@ -1,0 +1,545 @@
+/* RESET */
+
+
+/* ----------------------------------------- */
+
+
+/* Global reset */
+
+
+/* Based upon 'reset.css' in the Yahoo! User Interface Library: http://developer.yahoo.com/yui */
+
+
+/* Some additional modifications done by Media Genesis (http://mediag.com) */
+
+*,
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+label,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,
+img {
+	border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+caption,
+th {
+	text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+*:focus {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #515050;
+	transition: color 0.5s ease;
+}
+h1 {
+	font-size: 2.8em;
+	color: #000;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+/* Global reset-RESET */
+
+body {
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	transition: all ease .5s;
+}
+html {
+	height: 100%;
+}
+
+.clear{
+	clear:both;
+}
+#home_wrapper {
+	background: url(images/bg6.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+header .logo {
+	margin: 0px auto;
+	width: 150px;
+	display: block;
+}
+.home_heart {
+	position: relative;
+	top: 4px;
+	left: 10px;
+}
+nav ul {
+	margin: 0px auto;
+	padding: 15px 0px;
+	list-style: none;
+	width: 280px;
+}
+header {
+	width: 400px;
+	padding-top: 0%;
+	margin: 0 auto 0 auto;
+}
+header h1,
+h2 {
+	color: #fff;
+	text-align: center;
+}
+#home_wrapper nav li a {
+	font-size: 1.1em;
+	margin: 0px 5px;
+	color: #68CEFF;
+	background-color: transparent;
+	text-align: center;
+	display: block;
+	transition: all .5s ease;
+	height: 25px;
+	transition: all .5s ease;
+	border: 3px solid #fff;
+	padding-top: 24px;
+	border-bottom: 5px solid #68ceff;
+	-webkit-border-radius: 10%;
+	width: 80px;
+	-moz-border-radius: 10%;
+	border-radius: 10%;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	/*-webkit-box-shadow: 0 0 7px #68ceff;
+    -moz-box-shadow: 0 0 7px #68ceff;
+    box-shadow: 0 0 7px #68ceff;*/
+	
+}
+#home_wrapper nav li a:hover {
+	background: #68CEFF;
+	color: #fff;
+}
+#home_wrapper nav li a .jump {
+	display: block;
+}
+#home_wrapper nav li a .jump:hover {
+	position: relative;
+	top: -10px;
+}
+#home_wrapper nav li {
+	display: inline-block;
+}
+.bounce:hover {
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+/* Scroll down indicator (bouncing) */
+
+@-webkit-keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-webkit-transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+	}
+}
+@-moz-keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-moz-transform: translateY(0);
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+	}
+}
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-moz-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		-o-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-o-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+}
+
+/****************************WEB*****************************/
+.body_content{
+		
+}
+.web_wrapper {
+	background: url(images/web_bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 800px;
+
+}
+.web_wrapper header {
+	background: rgba(0, 174, 239, .2);
+	position: fixed;
+	left: 0;
+	width: 170px;
+	height: 100vh;
+	float:left;
+}
+.web_wrapper .logo img {
+	width: 95px;
+	margin: 0px auto;
+	display: block;
+}
+.web_wrapper .logo {
+	background: #00bff3;
+	padding: 50px 0 30px 0;
+	width: 100%;
+}
+.web_wrapper header nav a {
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	padding-left: 40px;
+	padding-bottom: 2px;
+}
+.web_wrapper nav {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.web_wrapper nav .active {
+	color: #68CEFF;
+}
+nav .active .nav_before {
+	width: 20px;
+	height: 4px;
+	display: block;
+	margin-left: -25px;
+	position: relative;
+	top: 13px;
+}
+.web_wrapper header nav a:hover {
+	color: #68CEFF;
+}
+.web_wrapper nav {
+    height: 63px;
+    float: right;
+    padding-right: 10px;
+}
+.nav_border {
+	height: 1px;
+	width: 100px;
+	background-color: #68CEFF;
+	float: right;
+    margin-bottom: 162px;
+}
+
+.bottom_header{
+	padding-right:10px;
+        position: absolute;
+    bottom: 20px;
+}
+.bottom_header a {
+	color: #fff;
+	font-size:13px;
+	
+	float:right;
+}
+.bottom_header a:hover {
+	color: #68CEFF;
+}
+.bottom_header .fa {
+color: #fff;
+    font-size: 34px;
+    display: block;
+    /* padding-bottom: 30px; */
+    float: right;
+    padding: 5px 0px 0px 0px;
+    width: 30px;
+    margin-right: 0px;
+
+}
+
+.web_logos_sect{
+    padding-top: 10%;
+	margin-left:18%;
+
+}
+.web_logos_sect ul{
+	    width: 905px;
+	list-style: none;
+	padding-bottom:300px;
+}
+
+.web_logos_sect li{
+	float:left;
+
+}
+.web_logos{
+
+
+}
+
+.web_logos img{
+	border:1px solid #00bff3;
+	width:150px;
+		padding:100px 150px;
+	    margin: -5px 0px 0px 0px;
+		display:inline-block;
+	transition:all ease .5s;
+}
+
+.web_logos img:hover{
+	background:rgba(0, 191, 243, 0.5);
+
+
+
+}
+
+
+/****************************sc4*****************************/
+
+.sc4{
+		background: url(images/sc4_bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding: 60px 0px 50px 0px;
+    margin-top: 145px;
+}
+
+.sc4 h5{
+	font-size:25px;
+	color:#fff;
+	line-height:1;
+}
+
+
+.sc4 h2{
+	color:#fff;
+	font-size:60px;
+	text-align:left;
+	font-weight:400;
+	    width: 600px;
+    line-height: 1;
+}
+
+
+.sc4_content{
+margin-left:18%;	
+}
+
+
+.sc4 li a{
+font-size: 1.1em;
+	margin: 0px 5px;
+	color: #fff;
+	background-color: transparent;
+	text-align: center;
+	display: block;
+	transition: all .5s ease;
+	height: 25px;
+	transition: all .5s ease;
+	border: 3px solid #fff;
+	padding-top: 24px;
+	    border-bottom: 5px solid #FFC72A;
+	-webkit-border-radius: 5%;
+	width: 120px;
+	-moz-border-radius: 5%;
+	border-radius: 5%;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	/*-webkit-box-shadow: 0 0 7px #68ceff;
+    -moz-box-shadow: 0 0 7px #68ceff;
+    box-shadow: 0 0 7px #68ceff;*/
+
+	
+	
+}
+
+.sc4 li a:hover {
+    background: #FFC72A;
+	color: #fff;
+}
+.sc4  li a .jump {
+	display: block;
+}
+.sc4 li a .jump:hover {
+	position: relative;
+	top: -10px;
+}
+.sc4 li {
+	display: inline-block;
+	margin-right:10px;
+}
+
+
+.sc4 ul {
+	margin-top:10px;
+	padding: 15px 0px;
+	list-style: none;
+	width: 286px;
+	
+}
+
+.project1{
+	margin-left:18%;
+}
+
+.project1 ul{
+	list-style:none;
+	
+}
+
+.project1 li{
+		display:inline-block;
+}
+.project1 li a{
+	color:#fff;
+	    background: #FFC72A;
+    border-left: 7px #FFF solid;
+	transition: all ease .8s;
+	padding:50px;
+	text-align: center;
+	    font-size: 30px;
+	    border-bottom: 7px #FFC72A solid;
+
+	display:none;
+}
+
+.project1 li a:hover{
+	
+	    border-bottom: 7px #FFF solid;
+    border-left: 7px solid #FFC72A;
+
+}
+
+
+/*************Responsive*****************/
+@media screen and (max-width: 1280px) {
+    
+    .web_logos_sect {
+        padding-top: 6%;
+    }
+    
+    .web_logos_sect ul {
+        width: 925px;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .web_logos_sect ul {
+        width: 377px;
+    }
+    
+}
